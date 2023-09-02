@@ -18,7 +18,6 @@ def base_sort(array):
     """
     Sorts an array using the built-in sorted() function
     """
-    test = 1
     return sorted(array)
 
 
@@ -102,6 +101,7 @@ def merge(left, right):
     return result
 
 
+# ---------------------- merge sort ---------------------- #
 def merge_sort(array):
     """
     Sorts an array using the merge sort algorithm
