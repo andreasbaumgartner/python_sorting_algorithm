@@ -1,5 +1,6 @@
-from utils import run_algo, gen_array
 from random import randint
+
+from utils import gen_array, run_algo
 
 
 def main():
@@ -17,6 +18,7 @@ def base_sort(array):
     """
     Sorts an array using the built-in sorted() function
     """
+    test = 1
     return sorted(array)
 
 
